@@ -4,9 +4,9 @@ template.innerHTML = `
   <style>    
 .container {
    
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Helvetica Neue",Helvetica,Arial;
     color: white;    
-    font-weight:400; 
+    font-weight:500; 
 }
 
 .ellipse {
@@ -45,6 +45,9 @@ template.innerHTML = `
     justify-content:center;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size:22px;
+    text-align:center;
+    
+    
 }
 
 .overlay-picture {
@@ -149,7 +152,7 @@ class Button extends HTMLElement {
   render() {
     this.$overlayHalf.innerHTML = this.label;
     this.$text.innerHTML = this.text;
-    this.$overlayPicture.style.backgroundImage = this.url
+    this.$overlayPicture.style.backgroundImage = this.url;
   }
 
 }
