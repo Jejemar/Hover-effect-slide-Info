@@ -48,8 +48,7 @@ template.innerHTML = `
 }
 
 .overlay-picture {
-    position: absolute;
-    background-image: url(./Picture1.jpg);
+    position: absolute;    
     width: 250px;
     height: 250px;
     background-repeat: no-repeat;
@@ -112,7 +111,7 @@ class Button extends HTMLElement {
   }
   
   static get observedAttributes() {
-    return ['label', 'text'];
+    return ['label', 'text', 'url'];
   }
 
   get label() {
@@ -131,6 +130,14 @@ class Button extends HTMLElement {
     this.setAttribute('text', value);
   }
 
+  get url() {
+    return this.getAttribute('url');
+  }
+
+  set url(value) {
+    this.setAttribute('url', value);
+  }
+
   // static get observedAttributes() {
   //   return ['label', 'text'];
   // }
@@ -142,6 +149,7 @@ class Button extends HTMLElement {
   render() {
     this.$overlayHalf.innerHTML = this.label;
     this.$text.innerHTML = this.text;
+    this.$overlayPicture.style.backgroundImage = this.url
   }
 
 }
