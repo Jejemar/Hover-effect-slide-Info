@@ -111,3 +111,160 @@ cd europe
 ls
 cat english.txt
 git log
+git status
+pwd
+cd C/User
+cd C/Users
+cd C/Users/mikha/Documents/playground
+cd C/Users/mikha/
+cd C/Users/
+pwd
+pwd /mikha
+documents/playground/
+documents/playground
+documents
+pwd
+cd mikha
+pwd
+cd documents
+cd playground
+git_practice
+cd git_practice
+git status
+git remote add origin https://github.com/Jejemar/git_practice.git
+git branch -M main
+git push -u origin main
+git status
+git commit
+git add README.txt
+git commit
+git commit -m "aadsf"
+сдуфк
+clear
+git log
+touch Mikhail.txt
+cat Mikhail.txt
+nano Mikhail.txt
+cat Mikhail.txt
+git add Mikhail.txt
+git status
+git commit -m "sdfd"
+git config --global user.name
+git config --global user.email
+git init
+got log
+git log
+pwd
+pwd
+cd /C
+pwd
+cd Users/mikha/documents/playground
+ls
+cd git_practice
+touch index.html
+touch resources
+ls
+touch css
+cd css
+cd cssls
+ls
+rm css
+rm cssresources
+rm resources
+mkdir resources
+mkdir css
+cd css
+touch style.css
+git add index.html
+ls
+git add style.css
+cd ..
+ls
+git add index.html
+git commit "excursion I changed to git_practice so that I don't create two repos"
+git commit -m "excursion I changed to git_practice so that I don't create two repos"
+git push origin master
+ls
+cat README.txt
+git push -u origin main
+pwd
+cd C/
+cd Users/mikha/documents/playground/
+ls
+cd git_practice
+git status
+git commit -m "deleted file"
+rm index.html
+git status
+git commit -m "index.html deleted"
+git status
+git commit -m "new files"
+git add Consultation.jpg component.js styles.css
+git add index.html
+git commit -m " New files"
+cd C/Users/mikha/documents/playground
+ls
+mkdir
+mkdir wedding
+cd wedding
+git clone [200~git@github.com:Jejemar/wedding-rsvp-off-platform-project.git~
+git clone https://github.com/Jejemar/wedding-rsvp-off-platform-project.git
+ls
+cd wedding-rsvp-off-platform-profect
+cd wedding-rsvp-off-platform-project
+ls
+git checkout -b "rsvp-mikha"
+ls
+cd C/Users/mikha/documents/playground
+ls
+cd wedding
+ls
+cd wedding-rsvp-off-platform-project
+git status
+git commit -m "guests modified"
+cat guests.md
+git add guests.md
+git status
+git commit -m "new changes"
+git push
+git push --set-upstream origin rsvp-mikha
+cd C/Users
+cd C/Users/mikha/documents
+cd mikha/documents/playground
+mkdir add-automated-tests
+ls
+cd add-automated-tests
+git checkout -b "add-auto-tests"
+mkdir .github
+cd .github
+mkdir workflows
+ls
+cd workflows
+touch .yaml
+ls
+touch unittests.yaml
+ls
+~./bash-profile
+nano unittests.yaml
+cat unittests.yaml
+git status
+git add unittests.yaml
+git status
+git commit -a -m “added a GitHub action to run unit tests automatically on code push”
+git commit -m “added a GitHub action to run unit tests automatically on code push”
+git commit -m " NEW commit"
+git push --set-upstream “add-auto-tests”
+cd ..
+cd ..
+git clone https://github.com/Jejemar/add-automated-tests-off-platform-project.git
+ls
+cd add-automated-tests-off-platform-project
+ls
+git checkout -b "add-automated-tests"
+mkdir .github
+cd .github
+mkdir workflows
+cd workflows
+touch unittests.yaml
+git add unittests.yaml
+git status

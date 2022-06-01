@@ -11,6 +11,17 @@ body {
     font-family: "Helvetica Neue",Helvetica,Arial
 }
 
+/* typography */
+
+h2 {
+    padding:50px;
+    color:#0A2A44;
+
+}
+
+
+
+
 /* HEADER section */
 
 header { 
@@ -123,9 +134,10 @@ nav ul li a{
 }
 
 .picture-aboutUs {
-    width:450px;
-    height:300px;
+    width:583px;
+    height:330px;
     margin-right: 100px;
+    border-radius: 30px;
 }
 
 .addition {
@@ -219,6 +231,154 @@ nav ul li a{
 
 .Services {
     width:100%;
-    height:450px;
+    height:470px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     background-color: #0A2A44;
+    position: relative;
+}
+
+.services-items {    
+    width:1440px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    position:absolute;
+}
+
+/* News Section */
+
+.News {
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+
+}
+
+
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px;
+    width: 330px;
+    height: 490px;
+    background: #0A2A44;
+    border-radius: 30px;
+    color:white;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+}
+
+.card p{
+    
+
+}
+
+.card-picture {
+    border-radius: 25px;
+    width:290px;
+    height:210px;
+}
+
+
+.card-bottom {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 280px;
+    align-items: center;
+}
+
+
+.button { 
+    width: 100px;
+    background-color: #FF6F08;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+
+/* Insights section */
+
+
+
+.insights {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* background-color:#0A2A44; */
+}
+
+
+
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    
+}
+
+.block-image{
+    width:350px;
+    height:310px;
+    position: relative;
+    
+
+}
+
+
+.block h3 {
+    position: absolute;
+    background-color:black;
+    padding:10px;
+    color:white;
+    width:250px;
+    margin-top: 250px;
+    opacity:0.8;
+    /* margin-left:300px; */
+
+}
+
+
+.btn-insights {
+    position: absolute;
+    width:40px;
+    height:40px;
+    border-radius:100%;
+    background-color:#FF6F08;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 260px;
+    margin-left:300px;
+    
+}
+
+.alignBlock {
+    display: flex;
 }
